@@ -1,0 +1,2 @@
+(this["webpackJsonphomework-4"]=this["webpackJsonphomework-4"]||[]).push([[0],{3:function(e,a,t){"use strict";t.r(a);var n=t(0),l=t.n(n),r=t(2),c=t.n(r),m=l.a.createElement("li",{},"Apple"),o=l.a.createElement("li",{},"Orange"),i=l.a.createElement("li",{},"Peach"),p=l.a.createElement("li",{},"Banana"),s=l.a.createElement("ul",null,m,o,i,p),E=l.a.createElement("nav",{},s);c.a.render(E,document.getElementById("root"))}},[[3,1,2]]]);
+//# sourceMappingURL=main.daaf4eb9.chunk.js.map
