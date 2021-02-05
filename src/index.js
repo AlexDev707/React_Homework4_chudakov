@@ -1,17 +1,19 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom";
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+// створити елемент nav всередині якого буде список ul з чотирма елементами li
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+const list_item1 = React.createElement ( "li", {}, 'Apple');
+
+const list_item2 = React.createElement ( "li", {}, 'Orange');
+
+const list_item3 = React.createElement ( "li", {}, 'Peach');
+
+const list_item4 = React.createElement ( "li", {}, 'Banana');
+
+const list = React.createElement( "ul", null, list_item1, list_item2, list_item3, list_item4);
+
+const navigation = React.createElement("nav", {}, list);
+
+ReactDOM.render(navigation, document.getElementById("root"));
+
